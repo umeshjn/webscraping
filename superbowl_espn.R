@@ -40,7 +40,7 @@ data = data[-c(1,2),]
 head(data)
 
 ## Writing into csv
-write.csv(data, "superbowl_MVPs.csv", row.names = FALSE)
+write.csv(data, "superbowl_TouchDownLeaders.csv", row.names = FALSE)
 
 
 
